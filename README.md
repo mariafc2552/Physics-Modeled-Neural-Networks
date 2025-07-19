@@ -8,7 +8,7 @@ The original article can be found at the following link: -----
 ## The model proposal
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eb62431e-8606-45c8-86c6-940ae4f13787" alt="image">
+ <img width="636" height="338" alt="image" src="https://github.com/user-attachments/assets/d4544ea8-1bce-4316-9151-b81c42856e9a" />
 </p>
 
 ## Files

@@ -7,7 +7,9 @@ The original article can be found at the following link: -----
 
 ## The model proposal
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eb62431e-8606-45c8-86c6-940ae4f13787" alt="image">
+</p>
 
 ## Files
 The repository consists of four working folders, each studying a different model:

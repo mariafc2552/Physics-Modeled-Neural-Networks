@@ -20,9 +20,8 @@ Representation of a PMNN with a two-layer Euler block:
 The repository consists of four working folders, each studying a different model:
 
 1. FitzHugh-Nugamo-based PMNN.
-2. Liquid-time continous neural network (LTC).
-3. Closed-form continous time neural network (CfC).
-4. Deep neural network (fully-connected layers).
+2. Closed-form continous time neural network (CfC).
+3. Neural Ordinary Differential Equation model (NODE).
 
 In each folder, the implementation of each model for the regression task concerning the California Housing dataset is provided.
 

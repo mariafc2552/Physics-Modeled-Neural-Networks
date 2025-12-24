@@ -1,0 +1,32 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Data\California_Housing_Dataset
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Data\model_data
+  model: NODE.pt
+  scaler: NODE_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: 64
+
+loaders:
+  batch_size: 64
+
+scaler: std
+
+optimizer:
+  lr: [1e-3]
+  weight_decay: 5.0e-3
+  betas: [0.9, 0.999]
+
+model:
+  batch_size: [32]
+  num_layers: [2]
+  hidden_dims: [15]
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 5.0e-2

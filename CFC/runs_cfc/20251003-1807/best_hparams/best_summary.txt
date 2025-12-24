@@ -1,0 +1,6 @@
+mejor configuración de hiperparámetros
+num_units: 64
+batch_size: 256
+learning rate: 0.005
+best validation_loss: 0.3531189914792776
+test loss (mejor config): 0.5819340054990205

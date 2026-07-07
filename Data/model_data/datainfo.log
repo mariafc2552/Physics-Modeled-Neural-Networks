@@ -1,8 +1,0 @@
-WARNING:__main__:Removing existing directory: C:\Users\maria\Desktop\Articulos_version_Sept\Data\model_data
-INFO:__main__:TRAIN: 14489 samples initially; 14464 saved to disk; discarded=25
-WARNING:__main__:TRAIN: 25 samples discarded (didn't fit into batches of size 64).
-INFO:__main__:VALID: 4102 samples initially; 4096 saved to disk; discarded=6
-WARNING:__main__:VALID: 6 samples discarded (didn't fit into batches of size 64).
-INFO:__main__:TEST: 2049 samples initially; 2048 saved to disk; discarded=1
-WARNING:__main__:TEST: 1 samples discarded (didn't fit into batches of size 64).
-INFO:__main__:Final summary (samples saved per split): TRAIN=14464, VALID=4096, TEST=2048

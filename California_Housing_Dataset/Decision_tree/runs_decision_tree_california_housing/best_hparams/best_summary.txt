@@ -1,0 +1,44 @@
+Decision Tree Regressor configuration
+============================================================
+
+Dataset:
+California Housing
+Task: regression
+Target: median_house_value
+
+Hyperparameters:
+criterion: squared_error
+max_depth: 10
+min_samples_split: 2
+min_samples_leaf: 5
+max_features: sqrt
+ccp_alpha: 0.001
+
+Tree complexity:
+tree_depth: 10
+num_leaves: 93
+num_nodes: 185
+
+Train metrics:
+mse: 0.3669267773303402
+rmse: 0.6057448120540037
+mae: 0.23842217673223276
+r2: 0.8902708276419742
+
+Validation metrics:
+mse: 0.4740303483384792
+rmse: 0.6884986189808076
+mae: 0.27995128503972905
+r2: 0.8582966856036609
+
+Test metrics:
+mse: 0.6485963864014701
+rmse: 0.8053548201888843
+mae: 0.31535977265906684
+r2: 0.8058861927510838
+
+Timing:
+train_time_s: 0.015857219696044922
+test_time_s: 0.0005397796630859375
+train_time_hms:   0:00:00
+test_time_hms:   0:00:00

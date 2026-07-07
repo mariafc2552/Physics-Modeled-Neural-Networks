@@ -1,0 +1,25 @@
+paths:
+  srcdir: C:/Users/maria/Desktop/Articulos_version_Sept/Breast_Cancer/Data/Breast_Cancer
+  datadir: C:/Users/maria/Desktop/Articulos_version_Sept/Breast_Cancer/Data/model_data
+  model: decision_tree_breast_cancer.pkl
+  results: runs_decision_tree_breast_cancer
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: null
+
+scaler: none
+
+model:
+  criterion: [gini, entropy]
+  max_depth: [null, 2, 3, 4, 5, 10]
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 2, 5, 10]
+  max_features: [null, sqrt, log2]
+  class_weight: [null, balanced]
+  ccp_alpha: [0.0, 0.001, 0.01]
+  random_state: 42
+

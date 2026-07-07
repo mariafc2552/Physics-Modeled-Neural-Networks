@@ -1,0 +1,28 @@
+|--- feature_27 <= 0.31
+|   |--- feature_3 <= 0.09
+|   |   |--- feature_13 <= -0.08
+|   |   |   |--- feature_14 <= -1.20
+|   |   |   |   |--- class: 1
+|   |   |   |--- feature_14 >  -1.20
+|   |   |   |   |--- class: 1
+|   |   |--- feature_13 >  -0.08
+|   |   |   |--- feature_18 <= 0.64
+|   |   |   |   |--- class: 0
+|   |   |   |--- feature_18 >  0.64
+|   |   |   |   |--- class: 1
+|   |--- feature_3 >  0.09
+|   |   |--- feature_21 <= -0.88
+|   |   |   |--- class: 1
+|   |   |--- feature_21 >  -0.88
+|   |   |   |--- class: 0
+|--- feature_27 >  0.31
+|   |--- feature_22 <= -0.29
+|   |   |--- class: 1
+|   |--- feature_22 >  -0.29
+|   |   |--- feature_27 <= 0.45
+|   |   |   |--- feature_1 <= -0.54
+|   |   |   |   |--- class: 1
+|   |   |   |--- feature_1 >  -0.54
+|   |   |   |   |--- class: 0
+|   |   |--- feature_27 >  0.45
+|   |   |   |--- class: 0

@@ -1,7 +1,0 @@
-mejor configuración de hiperparámetros
-t_step: 20
-t_end: 500
-batch_size: 32
-learning rate: 0.0005
-best validation_loss: 0.4651084826036822
-test loss (mejor config): 0.6637852235389652

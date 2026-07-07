@@ -1,0 +1,33 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Breast_Cancer\Data\Breast_Cancer
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Breast_Cancer\Data\model_data
+  model: pmnn.pt
+  scaler: pmnn_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: 64
+
+loaders:
+  batch_size: 64
+
+scaler: std
+
+optimizer:
+  lr: [1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 1e-1]
+  weight_decay: 5.0e-3
+  betas: [0.9, 0.999]
+
+model:
+  t_initial: [0]
+  t_step: [1, 2, 5, 10, 20, 50, 100, 500]
+  t_end: [10, 20, 50, 100, 200, 500, 1000, 10000]
+  batch_size: [32, 64, 128, 256]
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 5.0e-2

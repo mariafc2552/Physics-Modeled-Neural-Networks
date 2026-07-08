@@ -1,0 +1,7 @@
+Best parameters found:
+batch_size: 128
+learning rate: 0.0005
+num layer: 3
+hidden size: 128
+Best validation_loss: 0.30939589883200824
+Test loss for this config: 0.554217487823914

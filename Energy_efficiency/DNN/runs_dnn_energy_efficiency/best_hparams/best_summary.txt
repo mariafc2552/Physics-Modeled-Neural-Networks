@@ -1,0 +1,8 @@
+mejor configuración de hiperparámetros
+hidden_sizes: (256, 128)
+batch_size: 32
+learning rate: 0.005
+weight_decay: 0.005
+num_parameters: 35458
+best validation MSE: 1.016554093360901
+test RMSE (mejor config): 1.0809823654964321

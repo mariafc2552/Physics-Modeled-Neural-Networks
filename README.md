@@ -5,7 +5,7 @@ Raul Felipe-Sosa, Angel Martin del Rey, Maria Flores Ceballos
 ## Abstract
 The aim of this work is to (mathematically) describe and analyze a new type of neural network architecture, which we will call Dynamical Physics-Modeled Neural Networks (DynPMNN), that uses ordinary differential equations in its construction and which is consistent with the idea of what a neural network is. Its performance is evaluated in comparison with Ordinary Differential Neural Networks (NODEs) and also some illustrative examples are shown.
 
-The original article can be found at the following [link](https://arxiv.org/abs/2605.08176) .
+The original article can be found at the following [link](https://arxiv.org/abs/2605.08176).
 
 ## The model proposal
 While Neural Ordinary Differential Equations (NODEs) transform the forward propagation process into a continuous model governed by an ODE, and Physics-Informed Neural Networks (PINNs) incorporate physical laws directly into the loss function, Dynamical Physics-Modeled Neural Networks (DynPMNNs) extend this by modeling the hidden layers of the neural network using ODEs, where each hidden layer is treated as a dynamic system whose evolution is governed by a differential equation.

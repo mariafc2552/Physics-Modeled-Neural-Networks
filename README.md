@@ -28,7 +28,7 @@ The repository consists of four working folders, each studying a different model
 In each folder, the implementation of each model for the regression task concerning the California Housing dataset is provided.
 
 ## Cite
-
+'''
 @misc{felipesosa2026physicsmodeledneuralnetworks,
       title={Physics-Modeled Neural Networks}, 
       author={Raul Felipe-Sosa and Angel Martin del Rey and Maria Flores Ceballos},
@@ -38,3 +38,4 @@ In each folder, the implementation of each model for the regression task concern
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.08176}, 
 }
+'''

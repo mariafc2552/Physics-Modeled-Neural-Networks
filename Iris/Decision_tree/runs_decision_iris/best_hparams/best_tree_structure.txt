@@ -1,0 +1,7 @@
+|--- petal_length <= -0.72
+|   |--- class: 0
+|--- petal_length >  -0.72
+|   |--- petal_width <= 0.58
+|   |   |--- class: 1
+|   |--- petal_width >  0.58
+|   |   |--- class: 2

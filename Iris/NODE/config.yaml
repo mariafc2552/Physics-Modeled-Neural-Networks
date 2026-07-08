@@ -1,0 +1,33 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Iris\Data\Iris
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Iris\Data\model_data
+  model: NODE_Iris.pt
+  scaler: NODE_Iris_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: 64
+
+loaders:
+  batch_size: 64
+
+optimizer:
+  lr: [5e-3, 1e-3, 5e-4, 1e-4]
+  weight_decay: 5.0e-3
+  betas: [0.9, 0.999]
+
+
+model:
+  input_channels: 4
+  output_size: 3
+  num_layers: [2, 3]
+  hidden_dims: [5,10,15,20]
+  batch_size: [32, 64, 128, 256]
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 0.0

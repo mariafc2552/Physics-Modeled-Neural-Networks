@@ -1,0 +1,61 @@
+Decision Tree configuration
+============================================================
+
+Hyperparameters:
+criterion: gini
+max_depth: None
+min_samples_split: 2
+min_samples_leaf: 1
+max_features: sqrt
+class_weight: balanced
+ccp_alpha: 0.001
+
+Tree complexity:
+tree_depth: 8
+num_leaves: 29
+num_nodes: 57
+
+Train metrics:
+accuracy: 0.9989572471324296
+error: 0.0010427528675703845
+precision: 0.9976635514018691
+recall: 1.0
+specificity: 0.9981203007518797
+f1: 0.9988304093567252
+roc_auc: 0.9994541388600306
+tn: 531
+fp: 1
+fn: 0
+tp: 427
+
+Validation metrics:
+accuracy: 0.9963636363636363
+error: 0.0036363636363636598
+precision: 0.991869918699187
+recall: 1.0
+specificity: 0.9934640522875817
+f1: 0.9959183673469387
+roc_auc: 0.99799099967856
+tn: 152
+fp: 1
+fn: 0
+tp: 122
+
+Test metrics:
+accuracy: 0.9927536231884058
+error: 0.007246376811594235
+precision: 1.0
+recall: 0.9836065573770492
+specificity: 1.0
+f1: 0.9917355371900827
+roc_auc: 0.9918032786885246
+tn: 77
+fp: 0
+fn: 1
+tp: 60
+
+Timing:
+train_time_s: 0.0010044574737548828
+test_time_s: 0.0
+train_time_hms:   0:00:00
+test_time_hms:   0:00:00

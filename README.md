@@ -19,7 +19,18 @@ Representation of a PMNN with a two-layer Euler block:
 </p>
 
 ## Files
-
+```text
+project/
+├── src/
+│   ├── PMNN.py
+│   ├── NODE.py
+│   ├── CFC.py
+│   ├── DNN.py
+│   ├── data.py
+│   └── auxiliar.py
+├── config.yaml
+├── main.py
+└── README.md
 
 ## Cite
 If you use this repository, please cite:

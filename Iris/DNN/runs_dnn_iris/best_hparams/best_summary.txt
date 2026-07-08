@@ -1,0 +1,14 @@
+mejor configuración de hiperparámetros
+hidden_sizes: (64, 32, 16)
+batch_size: 32
+learning rate: 0.005
+weight_decay: 0.005
+activation: relu
+use_layer_norm: False
+num_parameters: 2979
+best validation accuracy: 1.0
+validation loss at best accuracy: 0.087483711540699
+validation error at best accuracy: 0.0
+test loss (mejor config): 0.3131614327430725
+test accuracy (mejor config): 0.8125
+test error (mejor config): 0.1875

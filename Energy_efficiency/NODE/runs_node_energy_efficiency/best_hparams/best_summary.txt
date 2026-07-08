@@ -1,0 +1,10 @@
+mejor configuración de hiperparámetros
+batch_size: 32
+learning rate: 0.005
+num layer: 3
+hidden dim: 15
+input_size: 8
+output_size: 2
+best validation_loss: 3.3402591705322267
+test MSE (mejor config): 3.784392754236857
+test RMSE (mejor config): 1.9453515759977313

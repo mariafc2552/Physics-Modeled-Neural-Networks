@@ -1,0 +1,14 @@
+Best hyperparameters found based on validation accuracy:
+hidden_sizes: (256, 128, 64)
+use_layer_norm: False
+activation: relu
+batch_size: 128
+learning rate: 0.005
+input_size: 4
+output_size: 1
+best validation_accuracy: 1.0
+validation loss at best accuracy: 0.0022784753042894104
+validation error at best accuracy: 0.0
+test loss (best config): 0.003802683390858874
+test accuracy (best config): 1.0
+test error (best config): 0.0

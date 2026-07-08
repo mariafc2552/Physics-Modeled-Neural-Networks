@@ -1,0 +1,12 @@
+Best hyperparameters found based on validation accuracy:
+num_units: 64
+batch_size: 32
+learning rate: 0.05
+input_size: 4
+output_size: 2
+best validation_accuracy: 1.0
+validation loss at best accuracy: 0.0013556388383019818
+validation error at best accuracy: 0.0
+test loss (best config): 0.014981815611827187
+test accuracy (best config): 0.9927536231884058
+test error (best config): 0.007246376811594235

@@ -1,0 +1,31 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\Diabetes
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\model_data
+  model: cfc.pt
+  scaler: cfc_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: 64
+
+loaders:
+  batch_size: 64
+
+scaler: std
+
+optimizer:
+  lr: [1e-1]
+  weight_decay: 5.0e-3
+  betas: [0.9, 0.999]
+
+model:
+  num_units_values: [128]
+  batch_size: [32]
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 5.0e-2

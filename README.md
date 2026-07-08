@@ -42,46 +42,21 @@ Each dataset follows the same general organization. The folder name corresponds 
 
 ## How to use it
 
-To run an experiment, go to the folder corresponding to the dataset and model of interest. Each experiment must be executed in two steps.
-
-First, run `data.py` to download, preprocess and split the dataset into training, validation and test sets:
-
+To run an experiment, go to the folder corresponding to the dataset and model of interest. Each experiment must be executed in two steps. First, run `data.py` to download, preprocess and split the dataset into training, validation and test sets:
 ```bash
 python src/data.py
 ```
 
 This script creates the processed files inside the directory specified in `config.yaml`, usually through the `paths.datadir` field.
 
-After the dataset has been prepared, run the training script:
-
+After the dataset has been prepared, run the main script:
 ```bash
 python main.py
 ```
 
 The `main.py` file reads the same `config.yaml` file, builds the selected model, trains it, evaluates it on the validation and test sets, and saves the results automatically.
 
-Before running the scripts, make sure that the paths in `config.yaml` are correct for your local machine:
-
-```yaml
-paths:
-  srcdir: path/to/raw/dataset
-  datadir: path/to/processed/model_data
-  model: model_name.pt
-  scaler: scaler_name.pt
-```
-
-After execution, the results will be saved in a folder named according to the model, for example:
-
-```text
-runs_dnn/
-runs_pmnn/
-runs_node/
-runs_cfc/
-runs_decision_tree/
-```
-
-Inside these folders, the best hyperparameter configuration is copied to:
-
+After execution, the results will be saved in a folder named according to the model. Inside these folders, the best hyperparameter configuration is copied to:
 ```text
 best_hparams/
 ```

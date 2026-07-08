@@ -17,15 +17,15 @@ loaders:
 scaler: std
 
 optimizer:
-  lr: [5e-3]
+  lr: [1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 1e-1]
   weight_decay: 5.0e-3
   betas: [0.9, 0.999]
 
 model:
   t_initial: [0]
-  t_step: [50]
-  t_end: [50]
-  batch_size: [256]
+  t_step: [1, 2, 5, 10, 20, 50, 100, 500]
+  t_end: [10, 20, 50, 100, 200, 500, 1000, 10000]
+  batch_size: [32, 64, 128, 256]
 
 fit:
   num_epochs: 100

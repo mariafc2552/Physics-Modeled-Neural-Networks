@@ -1,0 +1,68 @@
+Decision Tree Regressor configuration
+============================================================
+
+Dataset:
+Energy Efficiency
+Task: multi-output regression
+Targets: heating_load, cooling_load
+
+Hyperparameters:
+criterion: squared_error
+max_depth: None
+min_samples_split: 2
+min_samples_leaf: 5
+max_features: None
+ccp_alpha: 0.01
+
+Tree complexity:
+tree_depth: 7
+num_leaves: 38
+num_nodes: 75
+
+Train metrics:
+mse: 1.6428366408357942
+rmse: 1.2817318911674915
+mae: 0.787995724360959
+r2: 0.9820773013648216
+heating_load_mse: 0.48460697602912917
+heating_load_rmse: 0.6961371819039184
+heating_load_mae: 0.45663501705665754
+heating_load_r2: 0.9951797561729809
+cooling_load_mse: 2.801066305642459
+cooling_load_rmse: 1.6736386424919982
+cooling_load_mae: 1.1193564316652604
+cooling_load_r2: 0.9689748465566624
+
+Validation metrics:
+mse: 1.3202521207328388
+rmse: 1.1490222455343668
+mae: 0.6704363215322706
+r2: 0.985035902181994
+heating_load_mse: 0.513540085651272
+heating_load_rmse: 0.7166171123070338
+heating_load_mae: 0.4365068205114736
+heating_load_r2: 0.9949175895380858
+cooling_load_mse: 2.126964155814406
+cooling_load_rmse: 1.4584115179929176
+cooling_load_mae: 0.9043658225530675
+cooling_load_r2: 0.9751542148259021
+
+Test metrics:
+mse: 1.751570904790582
+rmse: 1.3234692685478504
+mae: 0.7959615844235793
+r2: 0.9823898160669657
+heating_load_mse: 0.23064137287020342
+heating_load_rmse: 0.4802513642564729
+heating_load_mae: 0.38919469097819753
+heating_load_r2: 0.9978980544230288
+cooling_load_mse: 3.2725004367109607
+cooling_load_rmse: 1.8090053722172748
+cooling_load_mae: 1.202728477868961
+cooling_load_r2: 0.9668815777109026
+
+Timing:
+train_time_s: 0.000997781753540039
+test_time_s: 0.0009856224060058594
+train_time_hms:   0:00:00
+test_time_hms:   0:00:00

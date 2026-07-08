@@ -1,0 +1,12 @@
+Best hyperparameters found based on validation MSE:
+num_units: 128
+batch_size: 32
+learning rate: 0.1
+input_size: 10
+output_size: 1
+best validation MSE: 2199.4887530723313
+best validation RMSE: 46.8987073710175
+best validation MAE: 39.01059680038624
+test MSE (best config): 2642.904074435764
+test RMSE (best config): 51.40918278319316
+test MAE (best config): 40.48292643229167

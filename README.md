@@ -23,7 +23,9 @@ Representation of a PMNN with a two-layer Euler block:
 ## Experiments
 We considered six datasets (Banknote, Breast Cancer, Califournia House Pricing, Diabetes, Energy efficiency and Iris) and four baseline models (NODEs, Closed-form Continous time models -CfCs-, Decision tree and Deep Neural Network -DNN-) to compare against our proposal in Section 5. Each dataset was selected to evaluate the PMNN under different classification and regression scenarios, thereby providing a broader assessment of its performance. The aim of our proposal is to provide a preliminary neural architecture in which physical dynamics are embedded into the hidden representation of the network. This kind of models may offer a more realistic framework for modeling brain-inspired processes and information processing. For this reason, we considered that the comparison would be more meaningful if it included baseline models that also incorporate continuous-time or physics-related modeling principles. Accordingly, NODEs and CfCs were included to provide a fairer comparison with architectures that share this dynamical modeling perspective, while standard DNN and Decision Tree models were also added to complete the empirical evaluation.
 
-## Files
+## Repository structure
+Each dataset follows the same general organization. The folder name corresponds to the dataset, and inside it there are the source files, the configuration file, the execution script, and the folders generated during training.
+
 ```text
 [Dataset_name]/
 ├── src/

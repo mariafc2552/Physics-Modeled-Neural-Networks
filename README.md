@@ -31,7 +31,7 @@ project/
 ├── config.yaml
 ├── main.py
 └── README.md
-```text
+```
 
 ## Cite
 If you use this repository, please cite:

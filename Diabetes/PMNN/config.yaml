@@ -1,0 +1,33 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\Diabetes
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\model_data
+  model: pmnn.pt
+  scaler: pmnn_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+  batch_size: 64
+
+loaders:
+  batch_size: 64
+
+scaler: std
+
+optimizer:
+  lr: [1e-1]
+  weight_decay: 5.0e-3
+  betas: [0.9, 0.999]
+
+model:
+  t_initial: [0]
+  t_step: [2]
+  t_end: [100]
+  batch_size: [32]
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 5.0e-2

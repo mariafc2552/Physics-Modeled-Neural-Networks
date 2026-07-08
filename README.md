@@ -20,17 +20,17 @@ Representation of a PMNN with a two-layer Euler block:
 
 ## Files
 ```text
-project/
+[Dataset_name]/
 ├── src/
-│   ├── PMNN.py
-│   ├── NODE.py
-│   ├── CFC.py
-│   ├── DNN.py
+│   ├── [model_name].py
 │   ├── data.py
 │   └── auxiliar.py
 ├── config.yaml
 ├── main.py
-└── README.md
+├── runs_[model_name]
+│   ├── best_hparams/
+│       ├── best_summary.txt
+│       ├── [model_hparams]_loss_graph.png
 ```
 
 ## Cite

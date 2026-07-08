@@ -21,8 +21,8 @@ optimizer:
 
 
 model:
-  input_channels: 4
-  output_size: 3
+  input_channels: 1
+  output_size: 1
   num_layers: [2, 3]
   hidden_dims: [5,10,15,20]
   batch_size: [32, 64, 128, 256]
@@ -30,4 +30,4 @@ model:
 fit:
   num_epochs: 100
   patience: 10
-  min_delta: 0.0
+  min_delta: 5.0e-2

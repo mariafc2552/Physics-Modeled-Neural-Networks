@@ -1,0 +1,40 @@
+paths:
+  srcdir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\Diabetes
+  datadir: C:\Users\maria\Desktop\Articulos_version_Sept\Diabetes\Data\model_data
+  model: dnn.pt
+  scaler: dnn_scaler.pt
+
+data:
+  splits:
+    train: 0.7
+    valid: 0.2
+    test: 0.1
+
+scaler: std
+
+loaders:
+  batch_size: 64
+
+optimizer:
+  lr: [1e-3]
+  weight_decay: 0.005
+  betas: [0.9, 0.999]
+
+model:
+  type: DNN
+
+  input_size: 10
+  output_size: 1
+
+  hidden_sizes: [[512, 256, 128]]
+
+  batch_size: [32]
+
+  activation: relu
+  use_layer_norm: false
+  bias: true
+
+fit:
+  num_epochs: 100
+  patience: 10
+  min_delta: 0.05

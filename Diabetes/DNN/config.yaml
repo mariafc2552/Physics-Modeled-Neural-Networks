@@ -16,19 +16,19 @@ loaders:
   batch_size: 64
 
 optimizer:
-  lr: [1e-3]
+  lr: [1e-4, 5e-4, 1e-3, 5e-3]
   weight_decay: 0.005
   betas: [0.9, 0.999]
 
 model:
   type: DNN
 
-  input_size: 10
+  input_size: 8
   output_size: 1
 
-  hidden_sizes: [[512, 256, 128]]
+  hidden_sizes: [[64, 32, 16], [128, 64, 32], [256, 128, 64], [128, 128], [256, 128], [512, 256, 128]]
 
-  batch_size: [32]
+  batch_size: [32, 64, 128]
 
   activation: relu
   use_layer_norm: false

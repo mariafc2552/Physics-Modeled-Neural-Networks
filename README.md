@@ -30,7 +30,7 @@ Representation of a PMNN with a two-layer Euler block:
 ├── runs_[model_name]
 │   ├── best_hparams/
 │       ├── best_summary.txt
-│       ├── [model_hparams]_loss_graph.png
+│       └── [model_hparams]_loss_graph.png
 ```
 
 ## Cite

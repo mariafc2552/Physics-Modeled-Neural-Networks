@@ -1,5 +1,7 @@
 # Physics-Modeled-Neural-Networks (PMNNs)
 
+Raul Felipe-Sosa, Angel Martin del Rey, Maria Flores Ceballos
+
 ## Abstract
 The aim of this work is to (mathematically) describe and analyze a new type of neural network architecture, which we will call Dynamical Physics-Modeled Neural Networks (DynPMNN), that uses ordinary differential equations in its construction and which is consistent with the idea of what a neural network is. Its performance is evaluated in comparison with Ordinary Differential Neural Networks (NODEs) and also some illustrative examples are shown.
 
@@ -27,3 +29,12 @@ In each folder, the implementation of each model for the regression task concern
 
 ## Cite
 
+@misc{felipesosa2026physicsmodeledneuralnetworks,
+      title={Physics-Modeled Neural Networks}, 
+      author={Raul Felipe-Sosa and Angel Martin del Rey and Maria Flores Ceballos},
+      year={2026},
+      eprint={2605.08176},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.08176}, 
+}

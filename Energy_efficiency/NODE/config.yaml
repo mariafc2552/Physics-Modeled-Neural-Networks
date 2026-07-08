@@ -15,19 +15,19 @@ loaders:
   batch_size: 64
 
 optimizer:
-  lr: [5e-3]
+  lr: [5e-3, 1e-3, 5e-4, 1e-4]
   weight_decay: 5.0e-3
   betas: [0.9, 0.999]
 
 
 model:
-  input_channels: 8
-  output_size: 2
-  num_layers: [3]
-  hidden_dims: [15]
-  batch_size: [32]
+  input_channels: 1
+  output_size: 1
+  num_layers: [2, 3]
+  hidden_dims: [5,10,15,20]
+  batch_size: [32, 64, 128, 256]
 
 fit:
   num_epochs: 100
   patience: 10
-  min_delta: 0.0
+  min_delta: 5.0e-2

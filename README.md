@@ -12,6 +12,8 @@ While Neural Ordinary Differential Equations (NODEs) transform the forward propa
 
 The PMNN (Physics-Modeled Neural Network) framework in the paper integrates systems of ODEs to model the dynamics of the hidden layer. Specifically, the model uses a system based on the FitzHugh-Nagumo or Hodgkin-Huxley models to describe neuronal activation, representing each hidden layer as a set of ODEs with trainable parameters. The solution to these ODEs determines the layer’s output, effectively introducing dynamic behavior within the network. The PMNN framework can be trained using numerical methods such as the Euler method to approximate the solution of the ODE governing each hidden layer's dynamics. This approach enhances the predictive power of the network by incorporating continuous-time dynamics.
 
+Despite having substantially fewer trainable parameters, the proposed model achieves competitive performance, illustrating the expressive power and efficiency that arise from embedding physically meaningful dynamics into neural architectures.
+
 Representation of a PMNN with a two-layer Euler block:
 
 <p align="center">

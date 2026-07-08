@@ -1,0 +1,12 @@
+mejor configuración de hiperparámetros
+t_step: 50
+t_end: 50
+batch_size: 256
+learning rate: 0.005
+input_size: 8
+hidden_size: 2
+output_size: 2
+best validation_loss MSE: 16.67597007751465
+best validation_loss RMSE: 4.083622176146399
+test MSE loss (mejor config): 18.34111976623535
+test RMSE loss (mejor config): 4.282653355833898

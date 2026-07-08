@@ -28,7 +28,7 @@ Representation of a PMNN with a two-layer Euler block:
 ├── config.yaml
 ├── main.py
 ├── runs_[model_name]
-│   ├── best_hparams/
+│   └── best_hparams/
 │       ├── best_summary.txt
 │       └── [model_hparams]_loss_graph.png
 ```

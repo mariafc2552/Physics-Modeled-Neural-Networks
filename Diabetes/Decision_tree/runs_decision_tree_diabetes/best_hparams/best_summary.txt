@@ -1,0 +1,39 @@
+Decision Tree Regressor configuration
+============================================================
+
+Hyperparameters:
+criterion: squared_error
+max_depth: 5
+min_samples_split: 2
+min_samples_leaf: 10
+max_features: None
+ccp_alpha: 0.0
+
+Tree complexity:
+tree_depth: 5
+num_leaves: 21
+num_nodes: 41
+
+Train metrics:
+mse: 2550.3246311718717
+rmse: 50.50073891708785
+mae: 41.08072979317199
+r2: 0.5844988615366014
+
+Validation metrics:
+mse: 3278.97117301836
+rmse: 57.26230149948882
+mae: 46.55429758562537
+r2: 0.35853176513403506
+
+Test metrics:
+mse: 2857.7239313988725
+rmse: 53.457683558108585
+mae: 41.218647832616874
+r2: 0.5328137734065584
+
+Timing:
+train_time_s: 0.0
+test_time_s: 0.0010001659393310547
+train_time_hms:   0:00:00
+test_time_hms:   0:00:00
